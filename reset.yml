@@ -6,5 +6,4 @@
   tasks:
  
   - name: Reset
-    shell: echo "Reset Software!"
-           sudo reboot
+    shell: sudo reboot
