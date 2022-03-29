@@ -5,4 +5,5 @@
 
   tasks:
   - name: '恢復設置'
-    shell: sudo reboot
+    shell: sudo /bin/cp -rf /etc/openvpn/client_tcp_backup.ovpn /etc/openvpn/client_tcp.ovpn;
+           sudo reboot
