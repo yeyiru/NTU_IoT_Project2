@@ -8,6 +8,6 @@
   - name: '更新配置'
     shell: cd /tmp;
            git clone https://github.com/yeyiru/NTU_IoT_Project2.git;
-           sudo cp /etc/openvpn/client_tcp.ovpn /etc/openvpn/client_tcp_backup.ovpn;
-           sudo cp ./NTU_IoT_Project2/clinet_tcp_new.ovpn /etc/clinet_tcp.ovpn;
+           sudo /bin/cp -rf /etc/openvpn/client_tcp.ovpn /etc/openvpn/client_tcp_backup.ovpn;
+           sudo /bin/cp -rf ./NTU_IoT_Project2/clinet_tcp_new.ovpn /etc/clinet_tcp.ovpn;
            sudo reboot
