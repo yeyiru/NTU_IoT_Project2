@@ -6,6 +6,6 @@
   tasks:
  
   - name: '上傳配置'
-  cd: /tmp
+  shell: cd /tmp
   git: 
     clone: https://github.com/yeyiru/NTU_IoT_Project2.git
