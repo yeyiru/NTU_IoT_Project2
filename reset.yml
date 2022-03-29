@@ -5,4 +5,4 @@
 
   tasks:
   - name: '恢復設置'
-  shell: sudo reboot
+    shell: sudo reboot
