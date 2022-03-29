@@ -4,6 +4,5 @@
   gather_facts: False
 
   tasks:
- 
-  - name: Reset
-    shell: sudo reboot
+  - name: '恢復設置'
+  shell: sudo reboot
